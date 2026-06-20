@@ -1,0 +1,130 @@
+---
+import { getCollection } from 'astro:content';
+import {
+	BUSINESS_ADDRESS,
+	BUSINESS_EMAIL,
+	BUSINESS_NAME,
+	BUSINESS_PHONE,
+	BUSINESS_PHONE_TEL,
+	NJTC_REGISTRATION,
+	SOCIAL_LINKS,
+} from '../consts';
+import FormattedDate from './FormattedDate.astro';
+
+const areas = (await getCollection('areas')).sort((a, b) => a.data.town.localeCompare(b.data.town));
+
+const recentPosts = (await getCollection('blog'))
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+	.slice(0, 5);
+
+const year = new Date().getFullYear();
+---
+
+<footer>
+	<div class="widgets">
+		<div class="widget">
+			<h3>Areas we Service</h3>
+			<ul>
+				{
+					areas.map((area) => (
+						<li>
+							<a href={`/${area.id}/`}>{area.data.town}, NJ</a>
+						</li>
+					))
+				}
+			</ul>
+		</div>
+		<div class="widget">
+			<h3>Recent Posts</h3>
+			<ul>
+				{
+					recentPosts.map((post) => (
+						<li>
+							<a href={`/blog/${post.id}/`}>{post.data.title}</a>
+							<div class="post-date">
+								<FormattedDate date={post.data.pubDate} />
+							</div>
+						</li>
+					))
+				}
+			</ul>
+		</div>
+		<div class="widget">
+			<h3>Contact Info</h3>
+			<p>
+				{BUSINESS_NAME}<br />
+				{BUSINESS_ADDRESS}
+			</p>
+			<p><a href={`tel:${BUSINESS_PHONE_TEL}`}>{BUSINESS_PHONE}</a></p>
+			<p><a href={`mailto:${BUSINESS_EMAIL}`}>{BUSINESS_EMAIL}</a></p>
+			<p class="njtc">NJ Tree Care Operator Reg. #{NJTC_REGISTRATION}</p>
+			<div class="social-links">
+				<a href={SOCIAL_LINKS.facebook} target="_blank" rel="noopener">Facebook</a>
+				<a href={SOCIAL_LINKS.twitter} target="_blank" rel="noopener">Twitter</a>
+				<a href={SOCIAL_LINKS.yelp} target="_blank" rel="noopener">Yelp</a>
+			</div>
+		</div>
+	</div>
+	<div class="bottom-bar">
+		&copy; {year} {BUSINESS_NAME}. All rights reserved.
+	</div>
+</footer>
+<style>
+	footer {
+		background: var(--footer-bg);
+		color: rgba(255, 255, 255, 0.85);
+	}
+	.widgets {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 3em 1em;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 2em;
+	}
+	.widget {
+		flex: 1 1 240px;
+	}
+	.widget h3 {
+		color: #fff;
+		border-bottom: 2px solid var(--footer-link);
+		padding-bottom: 0.5em;
+		margin-bottom: 1em;
+	}
+	.widget ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	.widget li {
+		margin-bottom: 0.75em;
+	}
+	.widget a {
+		color: var(--footer-link);
+	}
+	.widget a:hover {
+		color: #fff;
+	}
+	.post-date {
+		color: rgba(255, 255, 255, 0.6);
+		font-size: 0.85em;
+	}
+	.njtc {
+		font-size: 0.9em;
+		color: rgba(255, 255, 255, 0.7);
+	}
+	.social-links {
+		display: flex;
+		gap: 1em;
+		margin-top: 1em;
+	}
+	.social-links a {
+		font-weight: 700;
+	}
+	.bottom-bar {
+		background: #000;
+		color: #fff;
+		text-align: center;
+		padding: 1em;
+	}
+</style>

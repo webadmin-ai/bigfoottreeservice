@@ -1,0 +1,47 @@
+---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+
+interface Props {
+	title: string;
+	href: string;
+	image?: ImageMetadata;
+}
+
+const { title, href, image } = Astro.props;
+---
+
+<a class="service-card" href={href}>
+	{image && <Image src={image} alt={title} width={300} height={200} />}
+	<h3>{title}</h3>
+	<span class="more-info">MORE INFO</span>
+</a>
+<style>
+	.service-card {
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		color: rgb(var(--gray-dark));
+	}
+	.service-card img {
+		width: 100%;
+		aspect-ratio: 3 / 2;
+		object-fit: cover;
+	}
+	.service-card h3 {
+		margin-top: 0.75em;
+		margin-bottom: 0.5em;
+	}
+	.more-info {
+		display: inline-block;
+		padding: 0.5em 1.5em;
+		background: var(--accent);
+		color: #fff;
+		font-weight: 700;
+		border-radius: 4px;
+		letter-spacing: 0.05em;
+	}
+	.service-card:hover .more-info {
+		background: var(--accent-dark);
+	}
+</style>

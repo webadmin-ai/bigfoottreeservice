@@ -1,0 +1,23 @@
+---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import ContentPage from '../layouts/ContentPage.astro';
+
+export async function getStaticPaths() {
+	const services = await getCollection('services');
+	const areas = await getCollection('areas');
+
+	return [...services, ...areas].map((entry) => ({
+		params: { slug: entry.id },
+		props: entry,
+	}));
+}
+
+type Props = CollectionEntry<'services'> | CollectionEntry<'areas'>;
+
+const entry = Astro.props;
+const { Content } = await render(entry);
+---
+
+<ContentPage title={entry.data.title} description={entry.data.description}>
+	<Content />
+</ContentPage>

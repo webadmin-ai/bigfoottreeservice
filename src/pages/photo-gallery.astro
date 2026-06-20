@@ -1,0 +1,109 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { BUSINESS_PHONE_TEL } from '../consts';
+
+const images = [
+	'20160730_150159.jpg',
+	'20160730_150250.jpg',
+	'20160730_150308.jpg',
+	'20160730_150452.jpg',
+	'IMG_2309.jpg',
+	'IMG_2687.jpg',
+	'IMG_2761.jpg',
+	'IMG_2828.jpg',
+	'IMG_4593-3.jpg',
+	'IMG_4594-3.jpg',
+	'IMG_4595-3.jpg',
+	'IMG_4596-3.jpg',
+	'IMG_4597-3.jpg',
+	'IMG_4598-2.jpg',
+	'photo-1.jpg',
+	'photo-2.jpg',
+	'photo-3.jpg',
+	'photo-4.jpg',
+	'photo-5.jpg',
+	'photo-51.jpg',
+	'work-1.jpg',
+	'work-2.jpg',
+];
+---
+
+<Layout
+	title="Photos of Our Work | Big Foot Tree Service"
+	description="Take a look at some of the tree trimming, tree removal and stump removal projects Big Foot Tree Service has completed throughout Northern New Jersey."
+>
+	<div class="content-page">
+		<h1 class="page-title">Photos of Our Work</h1>
+		<section class="entry-content prose">
+			<p>
+				Take a look at some of the <a href="/tree-trimming/">tree trimming</a>, <a
+					href="/tree-removal/">tree removal</a
+				> and <a href="/stump-removal/">stump removal</a> projects we have completed in the
+				past.
+			</p>
+			<p>
+				As you can see, we have experience taking on a wide range of projects. We have
+				completed projects from removing fallen branches to enormous tree removals. Our main
+				goal is to help any home that needs tree removal services in Franklin Lakes, New Jersey
+				and the <a href="/servicing-areas/">surrounding areas</a>. We provide our services in
+				Passaic, Bergen and Essex Counties.
+			</p>
+			<p>
+				Whether you are facing a tree problem that resembles something you see on this page or
+				you have another type of job for us, give us a <a href={`tel:${BUSINESS_PHONE_TEL}`}
+					>call</a
+				> today to learn more about our tree care services. We have affordable prices and
+				flexible hours available, so don't wait around when you need help removing your trees!
+			</p>
+		</section>
+	</div>
+
+	<div class="gallery">
+		{
+			images.map((image) => (
+				<a href={`/images/gallery/${image}`} target="_blank" rel="noopener" class="gallery-item">
+					<img src={`/images/gallery/${image}`} alt="Big Foot Tree Service project" loading="lazy" />
+				</a>
+			))
+		}
+	</div>
+</Layout>
+
+<style>
+	.content-page {
+		width: 720px;
+		max-width: calc(100% - 2em);
+		margin: auto;
+		padding: 3em 1em 0;
+	}
+	.page-title {
+		text-align: center;
+		margin-bottom: 1em;
+		color: var(--accent);
+	}
+	.gallery {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 2em 1em 3em;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+		gap: 1em;
+	}
+	.gallery-item {
+		display: block;
+		border-radius: 8px;
+		overflow: hidden;
+		aspect-ratio: 4 / 3;
+	}
+	.gallery-item img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 8px;
+		margin: 0;
+		transition: transform 0.2s ease;
+	}
+	.gallery-item:hover img {
+		transform: scale(1.05);
+	}
+</style>

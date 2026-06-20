@@ -1,0 +1,94 @@
+---
+import { getCollection } from 'astro:content';
+import ContentPage from '../layouts/ContentPage.astro';
+
+const areas = await getCollection('areas');
+
+const counties = [...new Set(areas.map((area) => area.data.county))].sort();
+const areasByCounty = counties.map((county) => ({
+	county,
+	areas: areas
+		.filter((area) => area.data.county === county)
+		.sort((a, b) => a.data.town.localeCompare(b.data.town)),
+}));
+---
+
+<ContentPage
+	title="Professional Tree Removal and Trimming Services in New Jersey"
+	description="Big Foot Tree Service offers tree removal, tree trimming and stump removal services throughout Passaic, Bergen, Essex and Morris Counties in New Jersey."
+>
+	<p>
+		Are you looking for reliable tree removal and tree trimming services in New Jersey? If so,
+		you have come to the right place!
+	</p>
+	<p>
+		At Big Foot Tree Service, we offer a variety of <a href="/tree-removal/">tree removal</a>, <a
+			href="/tree-trimming/">trimming</a
+		> and cutting services to homeowners throughout New Jersey. Although we're headquartered in
+		Wayne, we offer our services throughout Passaic County and Bergen County, including the
+		areas below.
+	</p>
+	<p>
+		Our company is fully licensed and insured and we have years of tree care experience. We will
+		take care of everything from start to finish for you; we will even check to see if your
+		local area requires a permit before we begin, as we will handle the bureaucratic aspects.
+		Regardless of the type of service you need, we provide a quick response. In fact, we even
+		offer <a href="/storm-damage/">storm damage</a> and emergency tree services 365 days a year
+		and 7 days a week.
+	</p>
+	<p>
+		Below you will find the cities throughout the state we currently service. Our team can work
+		on any type of residential property in the following areas, and we can take on projects both
+		small and large.
+	</p>
+
+	{
+		areasByCounty.map(({ county, areas }) => (
+			<div class="county-group">
+				<h3>{county}</h3>
+				<ul class="area-list">
+					{areas.map((area) => (
+						<li>
+							<a href={`/${area.id}/`}>{area.data.town}, NJ</a>
+						</li>
+					))}
+				</ul>
+			</div>
+		))
+	}
+
+	<p>
+		If you have any questions, please <a href="/contact/">contact</a> Big Foot Tree Service today
+		for more information.
+	</p>
+</ContentPage>
+
+<style>
+	.county-group {
+		margin-bottom: 1.5em;
+	}
+	.county-group h3 {
+		margin-bottom: 0.5em;
+	}
+	.area-list {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+		gap: 0.5em 1em;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	.area-list a {
+		display: block;
+		padding: 0.5em 0.75em;
+		background: rgb(var(--gray-light));
+		border-radius: 4px;
+		text-decoration: none;
+		color: var(--accent);
+		font-weight: 700;
+	}
+	.area-list a:hover {
+		background: var(--accent);
+		color: #fff;
+	}
+</style>

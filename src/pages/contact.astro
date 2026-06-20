@@ -1,0 +1,57 @@
+---
+import ContentPage from '../layouts/ContentPage.astro';
+import {
+	BUSINESS_ADDRESS,
+	BUSINESS_EMAIL,
+	BUSINESS_PHONE,
+	BUSINESS_PHONE_TEL,
+	NJTC_REGISTRATION,
+} from '../consts';
+---
+
+<ContentPage
+	title="Contact"
+	description="Contact Big Foot Tree Service for tree removal, tree trimming, stump removal, firewood and more throughout Northern New Jersey. Call or text us today for a FREE estimate!"
+>
+	<p>
+		We would love to hear from you! Give us a call or text, or send us an email, and we'll get
+		back to you shortly. Remember, we offer <strong>FREE</strong> estimates!
+	</p>
+
+	<div class="contact-details">
+		<p class="business-name">Big Foot Tree Service</p>
+		<p>
+			<span class="label">Phone:</span>
+			<a href={`tel:${BUSINESS_PHONE_TEL}`}>{BUSINESS_PHONE}</a>
+		</p>
+		<p>
+			<span class="label">Email:</span>
+			<a href={`mailto:${BUSINESS_EMAIL}`}>{BUSINESS_EMAIL}</a>
+		</p>
+		<p>
+			<span class="label">Mailing Address:</span><br />
+			{BUSINESS_ADDRESS}
+		</p>
+		<p class="njtc">NJ Tree Care Operator Registration #{NJTC_REGISTRATION}</p>
+	</div>
+</ContentPage>
+
+<style>
+	.contact-details {
+		background: rgb(var(--gray-light));
+		border-radius: 8px;
+		padding: 1.5em 2em;
+	}
+	.business-name {
+		font-weight: 700;
+		font-size: 1.25em;
+	}
+	.label {
+		font-weight: 700;
+	}
+	.njtc {
+		font-size: 0.9em;
+		color: rgb(var(--gray));
+		margin-bottom: 0;
+	}
+</style>

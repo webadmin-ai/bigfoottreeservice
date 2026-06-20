@@ -1,0 +1,310 @@
+---
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import FormattedDate from '../components/FormattedDate.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+import Layout from '../layouts/Layout.astro';
+import heroImage from '../assets/hero/hero-banner.jpg';
+import {
+	BUSINESS_ADDRESS,
+	BUSINESS_EMAIL,
+	BUSINESS_PHONE,
+	BUSINESS_PHONE_TEL,
+	NJTC_REGISTRATION,
+	SITE_DESCRIPTION,
+	SITE_TITLE,
+} from '../consts';
+
+const services = (await getCollection('services')).sort((a, b) => a.data.order - b.data.order);
+
+const serviceLabels: Record<string, string> = {
+	'tree-removal': 'Tree Removal',
+	'stump-removal': 'Stump Removal',
+	firewood: 'Firewood',
+	'tree-trimming': 'Tree Trimming',
+	'storm-damage': 'Storm Damage',
+	'crane-service': 'Crane Services',
+};
+
+const recentPosts = (await getCollection('blog'))
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+	.slice(0, 3);
+---
+
+<Layout title={SITE_TITLE} description={SITE_DESCRIPTION}>
+	<section class="hero">
+		<Image src={heroImage} alt="" width={1600} height={900} class="hero-image" />
+		<div class="hero-overlay">
+			<div class="hero-content">
+				<h2>we work hard to get the job done<br />the right way the first time</h2>
+				<p class="njtc">NJTC Registration # {NJTC_REGISTRATION}</p>
+				<a class="cta" href="/contact/">FREE ESTIMATE</a>
+			</div>
+		</div>
+	</section>
+
+	<div class="content-page">
+		<h1 class="page-title">Tree Trimming &amp; Removal Services New Jersey</h1>
+		<section class="entry-content prose">
+			<p>
+				Are you looking for <a href="/tree-trimming/">tree trimming</a> and <a
+					href="/tree-removal/">tree removal</a
+				> services in New Jersey? If so, you have come to the right place!
+			</p>
+			<p>
+				Big Foot Tree Service provides a wide range of tree care services for commercial and
+				residential properties throughout the Northern New Jersey area. We prioritize customer
+				service above all else, so whether you need us to remove a single stump from your yard
+				or several trees, we will get the job done right efficiently and safely.
+			</p>
+
+			<h2>Tree Care Services</h2>
+			<p>Check out the different tree related services we provide for our customers:</p>
+			<ul>
+				<li>Tree Removal</li>
+				<li>Tree Stump Removal</li>
+				<li>Firewood</li>
+				<li>Tree Trimming</li>
+				<li>Storm Damage Cleanup Services</li>
+				<li>Crane Services</li>
+				<li>And more!</li>
+			</ul>
+			<p>
+				When it comes to our valued clients, trust us to treat your property as if it were our
+				own. We work quickly and efficiently removing trees, stumps, and anything else you need
+				us to do. Whether you need us to come to your property right away for emergency tree
+				services after a storm or you want us to come once a year to trim to have your trees
+				looking their best, we are here for you. Please note, since county is different, we
+				even check to see if you need a permit to remove trees in your area.
+			</p>
+			<p>
+				If you would like to hire the team at Big Foot Tree Service, give us a call <a
+					href={`tel:${BUSINESS_PHONE_TEL}`}>{BUSINESS_PHONE}</a
+				>. Please note, we provide <strong>FREE</strong> estimates!
+			</p>
+
+			<h2>Important: Before Hiring a Tree Care Company in New Jersey</h2>
+			<p>
+				Please be aware that it is now mandatory in New Jersey that the tree care company you
+				hire is registered with the State Board of Tree Experts. Homeowners looking to hire a
+				tree care operator must be sure the company is licensed and insured.
+			</p>
+			<p>
+				Please visit <a href="https://www.njbte.org" target="_blank" rel="noopener"
+					>njbte.org</a
+				> to find out if the company is in compliance.
+			</p>
+		</section>
+	</div>
+
+	<section class="services">
+		<div class="section-inner">
+			<h2>Our Services</h2>
+			<div class="service-grid">
+				{
+					services.map((service) => (
+						<ServiceCard
+							title={serviceLabels[service.id] ?? service.data.title}
+							href={`/${service.id}/`}
+							image={service.data.image}
+						/>
+					))
+				}
+			</div>
+		</div>
+	</section>
+
+	<section class="recent-posts">
+		<div class="section-inner">
+			<h2>From the Blog</h2>
+			<div class="post-grid">
+				{
+					recentPosts.map((post) => (
+						<a class="post-card" href={`/blog/${post.id}/`}>
+							{post.data.heroImage && (
+								<Image src={post.data.heroImage} alt="" width={400} height={250} />
+							)}
+							<h3>{post.data.title}</h3>
+							<div class="post-date">
+								<FormattedDate date={post.data.pubDate} />
+							</div>
+						</a>
+					))
+				}
+			</div>
+			<a class="view-all" href="/blog/">View All Posts</a>
+		</div>
+	</section>
+
+	<section class="contact-cta">
+		<div class="section-inner">
+			<h2>Get In Touch</h2>
+			<p>
+				Ready to get started, or just have a question? Give us a call or text, or send us an
+				email &mdash; we offer <strong>FREE</strong> estimates!
+			</p>
+			<div class="contact-info">
+				<p><a href={`tel:${BUSINESS_PHONE_TEL}`}>{BUSINESS_PHONE}</a></p>
+				<p><a href={`mailto:${BUSINESS_EMAIL}`}>{BUSINESS_EMAIL}</a></p>
+				<p>{BUSINESS_ADDRESS}</p>
+			</div>
+			<a class="cta" href="/contact/">FREE ESTIMATE</a>
+		</div>
+	</section>
+</Layout>
+
+<style>
+	.hero {
+		position: relative;
+		display: flex;
+		min-height: 420px;
+		overflow: hidden;
+	}
+	.hero :global(.hero-image) {
+		position: absolute;
+		inset: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 0;
+		margin: 0;
+	}
+	.hero-overlay {
+		position: relative;
+		z-index: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		padding: 2em 1em;
+	}
+	.hero-content {
+		max-width: 900px;
+		min-width: 0;
+		padding: 1.5em 2.5em;
+		text-align: center;
+		color: #fff;
+		background: rgba(0, 0, 0, 0.7);
+		border-radius: 4px;
+	}
+	.hero-content h2 {
+		color: #fff;
+		font-family: var(--font-heading);
+		font-size: 1.4em;
+		line-height: 1.4;
+		text-transform: uppercase;
+		overflow-wrap: break-word;
+		margin-bottom: 0.75em;
+	}
+	.njtc {
+		color: rgba(255, 255, 255, 0.85);
+		margin-bottom: 1.5em;
+	}
+	.cta {
+		display: inline-block;
+		padding: 0.75em 2em;
+		background: var(--accent);
+		color: #fff;
+		font-weight: 700;
+		letter-spacing: 0.05em;
+		text-decoration: none;
+		border-radius: 4px;
+		font-size: 1.1em;
+	}
+	.cta:hover {
+		background: var(--accent-dark);
+	}
+
+	.content-page {
+		width: 720px;
+		max-width: calc(100% - 2em);
+		margin: auto;
+		padding: 3em 1em;
+	}
+	.page-title {
+		text-align: center;
+		margin-bottom: 1em;
+		color: var(--accent);
+	}
+
+	.section-inner {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 3em 1em;
+	}
+	.services h2,
+	.recent-posts h2,
+	.contact-cta h2 {
+		text-align: center;
+		margin-bottom: 1.5em;
+	}
+	.service-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+		gap: 2em;
+	}
+
+	.recent-posts {
+		background: rgb(var(--gray-light));
+	}
+	.post-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+		gap: 2em;
+		margin-bottom: 2em;
+	}
+	.post-card {
+		display: block;
+		text-decoration: none;
+		color: rgb(var(--gray-dark));
+	}
+	.post-card :global(img) {
+		width: 100%;
+		aspect-ratio: 16 / 10;
+		object-fit: cover;
+	}
+	.post-card h3 {
+		margin-top: 0.75em;
+		margin-bottom: 0.25em;
+		font-size: 1.25em;
+	}
+	.post-card:hover h3 {
+		color: var(--link-color);
+	}
+	.post-date {
+		color: rgb(var(--gray));
+		font-size: 0.9em;
+	}
+	.view-all {
+		display: block;
+		text-align: center;
+		font-weight: 700;
+		color: var(--link-color);
+		text-decoration: none;
+	}
+	.view-all:hover {
+		color: var(--nav-active);
+	}
+
+	.contact-cta {
+		text-align: center;
+	}
+	.contact-cta .section-inner {
+		max-width: 600px;
+	}
+	.contact-info {
+		margin-bottom: 1.5em;
+	}
+	.contact-info p {
+		margin: 0.25em 0;
+	}
+	.contact-info a {
+		font-weight: 700;
+	}
+
+	@media (max-width: 720px) {
+		.hero-content h2 {
+			font-size: 1.1em;
+		}
+	}
+</style>
