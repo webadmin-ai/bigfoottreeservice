@@ -5,20 +5,32 @@ import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 import Header from '../../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+import { SITE_TITLE } from '../../consts';
 
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+
+const BLOG_TITLE = 'Tree Care Blog';
+const BLOG_DESCRIPTION =
+	'Tree care tips, seasonal guides, and expert advice from Big Foot Tree Service in Wayne, NJ.';
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<BaseHead title={BLOG_TITLE} description={BLOG_DESCRIPTION} />
 		<style>
 			main {
 				width: 960px;
+				max-width: calc(100% - 2em);
+				margin: 0 auto;
+				padding: 2em 1em;
+			}
+			h1 {
+				text-align: center;
+				color: var(--accent);
+				margin-bottom: 1.5em;
 			}
 			ul {
 				display: flex;
@@ -89,6 +101,7 @@ const posts = (await getCollection('blog')).sort(
 	<body>
 		<Header />
 		<main>
+			<h1>Tree Care Blog</h1>
 			<section>
 				<ul>
 					{
@@ -96,7 +109,12 @@ const posts = (await getCollection('blog')).sort(
 							<li>
 								<a href={`/blog/${post.id}/`}>
 									{post.data.heroImage && (
-										<Image width={720} height={360} src={post.data.heroImage} alt="" />
+										<Image
+											width={720}
+											height={360}
+											src={post.data.heroImage}
+											alt={post.data.title}
+										/>
 									)}
 									<h4 class="title">{post.data.title}</h4>
 									<p class="date">

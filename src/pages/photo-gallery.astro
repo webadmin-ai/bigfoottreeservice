@@ -2,6 +2,31 @@
 import Layout from '../layouts/Layout.astro';
 import { BUSINESS_PHONE_TEL } from '../consts';
 
+const altDescriptions = [
+	'Tree removal in progress by Big Foot Tree Service in Northern New Jersey',
+	'Big Foot Tree Service crew safely removing a large tree',
+	'Tree trimming work by Big Foot Tree Service in New Jersey',
+	'Stump removal service completed by Big Foot Tree Service',
+	'Big Foot Tree Service tree care project in Passaic County NJ',
+	'Large tree being removed by Big Foot Tree Service crew',
+	'Storm damage cleanup by Big Foot Tree Service in Northern New Jersey',
+	'Tree trimming and pruning by Big Foot Tree Service',
+	'Big Foot Tree Service crane service for large tree removal',
+	'Professional tree removal by Big Foot Tree Service in Morris County NJ',
+	'Tree stump grinding by Big Foot Tree Service in New Jersey',
+	'Big Foot Tree Service crew at work on a tree removal project',
+	'Tree cutting service by Big Foot Tree Service in Bergen County NJ',
+	'Big Foot Tree Service completing a residential tree removal',
+	'Tree removal project by Big Foot Tree Service in Wayne NJ',
+	'Big Foot Tree Service trimming overgrown trees in New Jersey',
+	'Fallen tree cleanup after storm damage by Big Foot Tree Service',
+	'Big Foot Tree Service removing a hazardous tree near a home',
+	'Tree and stump removal completed by Big Foot Tree Service',
+	'Big Foot Tree Service crew clearing trees in Essex County NJ',
+	'Professional tree work by Big Foot Tree Service in Northern New Jersey',
+	'Completed tree removal project by Big Foot Tree Service',
+];
+
 const images = [
 	'20160730_150159.jpg',
 	'20160730_150250.jpg',
@@ -60,9 +85,9 @@ const images = [
 
 	<div class="gallery">
 		{
-			images.map((image) => (
+			images.map((image, i) => (
 				<a href={`/images/gallery/${image}`} target="_blank" rel="noopener" class="gallery-item">
-					<img src={`/images/gallery/${image}`} alt="Big Foot Tree Service project" loading="lazy" />
+					<img src={`/images/gallery/${image}`} alt={altDescriptions[i]} loading="lazy" />
 				</a>
 			))
 		}
