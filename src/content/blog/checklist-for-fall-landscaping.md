@@ -1,7 +1,7 @@
 ---
 title: "Checklist for Fall Landscaping"
 description: "Big Foot Tree Service offers tips on what landscaping tasks you can perform to prepare for autumn."
-pubDate: "2015-09-04"
+pubDate: "2024-09-04"
 author: "Brian Whitmore"
 heroImage: "../../assets/blog/checklist-fall-landscaping.jpg"
 ---

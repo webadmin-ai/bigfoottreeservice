@@ -1,7 +1,7 @@
 ---
 title: "Big Foot Tree Service's Winter Tree Care Essentials"
 description: "Winter dormancy doesn't mean your trees need less attention. Big Foot Tree Service shares essential tips to keep your trees healthy through the cold months."
-pubDate: "2023-12-14"
+pubDate: "2024-12-14"
 heroImage: "../../assets/blog/winter-tree-care-essentials.jpg"
 ---
 

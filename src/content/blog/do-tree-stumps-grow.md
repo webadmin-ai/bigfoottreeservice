@@ -1,8 +1,9 @@
 ---
 title: "Do Tree Stumps Grow?"
 description: "Big Foot Tree Service discusses whether or not tree stumps can grow, then examines why it's important to remove them."
-pubDate: "2014-04-15"
+pubDate: "2024-04-15"
 author: "Brian Whitmore"
+heroImage: "../../assets/blog/tree-stump-540x540.jpg"
 ---
 
 It's that time of year, again, when people are starting to get outside and look over their yards, doing spring clean-up and more. As the weather warms up, the grass gets greener, flowers spring up out of the ground, and colorful leaves begin to fill up the trees in New Jersey.

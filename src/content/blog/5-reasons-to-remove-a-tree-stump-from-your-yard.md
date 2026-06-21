@@ -1,7 +1,7 @@
 ---
 title: "5 Reasons to Remove a Tree Stump From Your Yard"
 description: "Big Foot Tree Service shares five reasons why a leftover tree stump shouldn't be left to decay on its own in your yard."
-pubDate: "2015-02-18"
+pubDate: "2025-02-18"
 author: "Brian Whitmore"
 heroImage: "../../assets/blog/5-reasons-remove-tree-stump.jpg"
 ---

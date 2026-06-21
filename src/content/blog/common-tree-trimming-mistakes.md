@@ -1,7 +1,7 @@
 ---
 title: "Common Tree Trimming Mistakes"
 description: "What are some of the more common mistakes that people make when trimming trees? The tree experts at Big Foot Tree Service discuss that and more in their new blog post."
-pubDate: "2018-09-20"
+pubDate: "2026-04-20"
 author: "Brian Whitmore"
 heroImage: "../../assets/blog/common-tree-trimming-mistakes.jpg"
 ---

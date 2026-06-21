@@ -1,7 +1,7 @@
 ---
 title: "How Tree Root Systems Impact Your Foundation and Hardscaping"
 description: "If you are seeing signs of shifting pavement or foundation concerns, it is a good idea to bring in a licensed and insured tree service."
-pubDate: "2026-05-12"
+pubDate: "2026-06-12"
 author: "Brian Whitmore"
 heroImage: "../../assets/blog/root-systems-foundation.jpg"
 ---

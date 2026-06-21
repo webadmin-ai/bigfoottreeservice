@@ -1,7 +1,7 @@
 ---
 title: "Caring for a Tree Before and After a Storm"
 description: "Big Foot Tree Service discusses the things you can do to care for a tree before and after a storm."
-pubDate: "2016-07-22"
+pubDate: "2025-07-22"
 author: "Brian Whitmore"
 heroImage: "../../assets/blog/caring-for-tree-storm.jpg"
 ---

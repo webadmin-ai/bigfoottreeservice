@@ -1,7 +1,7 @@
 ---
 title: "A Tree Care Checklist for the Fall"
 description: "What should you do when caring for the trees on your property this fall? Big Foot Tree Service, a tree care company in Wayne, NJ, discusses that and more in their new blog post."
-pubDate: "2018-08-20"
+pubDate: "2025-08-20"
 author: "Brian Whitmore"
 heroImage: "../../assets/blog/tree-care-checklist-fall.jpg"
 ---

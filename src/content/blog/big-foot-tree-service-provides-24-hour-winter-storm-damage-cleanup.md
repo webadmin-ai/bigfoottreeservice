@@ -1,9 +1,9 @@
 ---
 title: "Big Foot Tree Service Provides 24-Hour Winter Storm Damage Cleanup"
 description: "Big Foot Tree Service reminds residents of Wayne, NJ that they offer 24-hour emergency tree removal and cleanup of debris from winter storms."
-pubDate: "2015-01-07"
+pubDate: "2025-01-07"
 author: "Brian Whitmore"
-heroImage: "../../assets/blog/winter-storm-damage-cleanup.jpg"
+heroImage: "../../assets/blog/winter-storm-damage.jpg"
 ---
 
 While most trees are tough, winter storm damage can happen because the weather can get so nasty. Have you noticed how windy it has been lately? Don't forget freezing rain and the ice and snow all messing with your yard's trees. Winter weather is intense.

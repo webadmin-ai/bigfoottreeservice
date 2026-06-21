@@ -1,8 +1,9 @@
 ---
 title: "Can Tree Stumps Cause a Termite Problem?"
 description: "Big Foot Tree Service discusses the importance of removing tree stumps in order to prevent a potential termite issue."
-pubDate: "2014-03-04"
+pubDate: "2024-03-04"
 author: "Brian Whitmore"
+heroImage: "../../assets/blog/tree-stump-termites.jpg"
 ---
 
 You do not want pesky termites eating away at parts of your house, let alone even taking residence in your yard. If termites find a place in your yard to take up residence, once they finish their collective meals and need a new place to gnaw on, you know where they're headed? Right for your house!

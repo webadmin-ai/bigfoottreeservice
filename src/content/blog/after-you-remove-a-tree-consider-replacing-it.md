@@ -1,8 +1,9 @@
 ---
 title: "After You Remove a Tree, Consider Replacing It"
 description: "Big Foot Tree Service explains why you should replant a tree after you remove one from your property."
-pubDate: "2015-03-13"
+pubDate: "2024-03-13"
 author: "Brian Whitmore"
+heroImage: "../../assets/blog/backyard-tree-612x612.jpg"
 ---
 
 The world needs more trees. No matter where you live, whether it's New Jersey or New Delhi, deforestation affects us all. In a world where we use an awful lot of paper, which comes from trees, know this: each one of us uses an average of 65 cubic feet of wood every year, which equals about six "one foot thick" trees. Do you write on paper? Do you use tissues and toilet paper rolls? How about paper plates at summer picnics? We all use a lot of paper and paper products, and therefore it's vitally important to replant trees after removing them.

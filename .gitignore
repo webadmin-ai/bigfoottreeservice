@@ -1,10 +1,8 @@
-# Exclude legacy content from git
-legacy-site/
-
 # build output
 dist/
 # generated types
 .astro/
+.vscode/
 
 # dependencies
 node_modules/
@@ -25,3 +23,6 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# local development files
+CLAUDE.md

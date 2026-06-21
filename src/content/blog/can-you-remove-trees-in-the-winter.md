@@ -1,7 +1,7 @@
 ---
 title: "Can You Remove Trees in the Winter?"
 description: "Is the winter season a good time to work on and/or remove trees in your yard? Surprisingly, yes!"
-pubDate: "2022-09-26"
+pubDate: "2025-09-26"
 author: "Brian Whitmore"
 heroImage: "../../assets/blog/remove-trees-in-winter.jpg"
 ---
