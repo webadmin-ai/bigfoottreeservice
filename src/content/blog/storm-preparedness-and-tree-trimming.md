@@ -3,7 +3,7 @@ title: "Storm Preparedness: How Tree Trimming Prevents Damage"
 description: "Summer storms in New Jersey can unleash their fury with little warning. Proper storm preparedness through tree trimming can significantly reduce the risk of damage."
 pubDate: "2026-07-03"
 author: "Brian Whitmore"
-heroImage: "../../assets/blog/caring-for-tree-storm.jpg"
+heroImage: "../../assets/services/storm-damage.png"
 ---
 
 Summer storms in New Jersey can unleash their fury with little warning, causing severe damage to our surroundings. Weak or overgrown branches pose a significant threat to your home and safety when the wind picks up. However, with proper storm preparedness through tree trimming, you can reduce the risk of damage and keep your property safe.
