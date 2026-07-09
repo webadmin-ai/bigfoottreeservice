@@ -1,13 +1,13 @@
 ---
-title: "Tree Trimming & Removal Services in Oakland, NJ"
-description: "Big Foot Tree Service specializes in tree servicing, trimming, and removal, serving Oakland, NJ and the surrounding areas. Contact us for more!"
-town: "Oakland"
+title: "Tree Trimming & Removal Services in Paramus, NJ"
+description: "Big Foot Tree Service specializes in tree servicing, trimming, and removal, serving Paramus, NJ and the surrounding areas. Contact us for more!"
+town: "Paramus"
 county: "Bergen County"
 ---
 
-Have you decided that it's finally time to get rid of the overgrown patch of trees in your backyard? Or is there a tree in your front yard that is decaying and looks horrific? Big Foot Tree Service is ready to provide you with reliable tree service in Oakland, NJ. Regardless of whether you want to take out a single tree or a bunch of trees, we can handle the entire project for you.
+Have you decided that it's finally time to get rid of the overgrown patch of trees in your backyard? Or is there a tree in your front yard that is decaying and looks horrific? Big Foot Tree Service is ready to provide you with reliable tree service in Paramus, NJ. Regardless of whether you want to take out a single tree or a bunch of trees, we can handle the entire project for you.
 
-## Tree Services in Oakland
+## Tree Services in Paramus
 
 We offer all sorts of services, including:
 
@@ -18,7 +18,7 @@ We offer all sorts of services, including:
 - [Tree Stump Removals](/stump-removal/)
 - And more!
 
-## Tree Removals in Oakland, NJ
+## Tree Removals in Paramus, NJ
 
 If you're going to remove a tree, you need to have a proper plan in place. Failure to come up with a plan could potentially result in damage to property, injuries, or even death. Big Foot Tree Service takes [tree removal](/tree-removal/) seriously and won't start up a single chainsaw until a plan is formulated. Stump removal should also be done at the end of the tree removal process to ensure that a tree is 100 percent gone from a property. What's more, if you need a permit to remove one, we can obtain it for you.
 
@@ -30,4 +30,4 @@ In addition to taking down any trees that you don't want in your yard anymore, y
 
 If you need permits, we will obtain the proper ones for your tree services. We also offer **FREE** estimates for our customers.
 
-Would you like more information on the tree services we offer in Oakland, NJ? [Reach out](/contact/) to Big Foot Tree Service at [973-885-8000](tel:9738858000) today.
+Would you like more information on the tree services we offer in Paramus, NJ? [Reach out](/contact/) to Big Foot Tree Service at [973-885-8000](tel:9738858000) today.

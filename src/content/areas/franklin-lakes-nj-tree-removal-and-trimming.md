@@ -1,20 +1,33 @@
 ---
-title: "Tree Trimming & Tree Removal Services in Franklin Lakes, NJ"
-description: "Big Foot Tree Service offers stump and tree removal services in Franklin Lakes NJ and surrounding areas. Schedule an appointment with us today!"
+title: "Tree Trimming & Removal Services in Franklin Lakes, NJ"
+description: "Big Foot Tree Service specializes in tree servicing, trimming, and removal, serving Franklin Lakes, NJ and the surrounding areas. Contact us for more!"
 town: "Franklin Lakes"
 county: "Bergen County"
 ---
 
-Are you looking for a tree service provider in Northern New Jersey? Look no further than Big Foot Tree Service. We are the leading tree company to call for [stump](/stump-removal/) and [tree removal](/tree-removal/) services in Franklin Lakes and the surrounding region. We have the proper equipment, experience and expertise to complete your job in a safe and timely manner, and unlike some tree removal companies, we completely clean up after every project — no messes, not even a twig left behind!
+Have you decided that it's finally time to get rid of the overgrown patch of trees in your backyard? Or is there a tree in your front yard that is decaying and looks horrific? Big Foot Tree Service is ready to provide you with reliable tree service in Franklin Lakes, NJ. Regardless of whether you want to take out a single tree or a bunch of trees, we can handle the entire project for you.
 
-## Tree Stump Removal Services in Franklin Lakes
+## Tree Services in Franklin Lakes
 
-Tree stumps are the worst. Having a stump in your front yard can be a major eyesore and take attention away from the rest of your home, including your landscape. Fortunately, with our removal services, you can eliminate the stump from your property, making your lawn safer and more aesthetically pleasing in the process.
+We offer all sorts of services, including:
 
-Our crew will make sure your property boasts a well-maintained, stump-free yard, completely removing stumps while keeping the surrounding area intact. We bring the equipment necessary for the job, so you don't have to rent it yourself or do any of the work. We'll also get in touch with your town's local government to see whether or not a permit is required, and if one is needed, we'll get it for you.
+- Tree Removals
+- Tree Cutting
+- Emergency Tree Services
+- Storm Damage Cleanup
+- [Tree Stump Removals](/stump-removal/)
+- And more!
 
-## We Remove the Trees From Your Home Safely!
+## Tree Removals in Franklin Lakes, NJ
 
-Are the trees on your property dead, diseased, dying or causing too much property maintenance? If so, call the experts at Big Foot Tree Service for an affordable removal solution. We can cut down the trees on your property, whether you need one removed or several. No matter the size, species or condition of the tree(s) you want removed, we have everything covered.
+If you're going to remove a tree, you need to have a proper plan in place. Failure to come up with a plan could potentially result in damage to property, injuries, or even death. Big Foot Tree Service takes [tree removal](/tree-removal/) seriously and won't start up a single chainsaw until a plan is formulated. Stump removal should also be done at the end of the tree removal process to ensure that a tree is 100 percent gone from a property. What's more, if you need a permit to remove one, we can obtain it for you.
 
-If you need tree service or stump removal in Franklin Lakes, give us a call today at [973-885-8000](tel:973-885-8000) to schedule an appointment.
+## We Offer Top-Notch Tree Trimming Services Too!
+
+In addition to taking down any trees that you don't want in your yard anymore, you should also strongly consider professional tree trimming on a regular basis. The branches on your trees should not be overgrown and hanging over your home or a neighbor's property. These branches could snap at any minute and cause substantial damage, especially in the winter when heavy snow and ice are on top of them. By bringing in Big Foot Tree Service to do [tree trimming](/tree-trimming/), you will reduce this risk and ensure that your trees stay healthy in the process. What's more, like a haircut for humans, routine tree trimmings will help your property look its best.
+
+## Contact Big Foot Tree Service For a FREE Estimate
+
+If you need permits, we will obtain the proper ones for your tree services. We also offer **FREE** estimates for our customers.
+
+Would you like more information on the tree services we offer in Franklin Lakes, NJ? [Reach out](/contact/) to Big Foot Tree Service at [973-885-8000](tel:9738858000) today.
