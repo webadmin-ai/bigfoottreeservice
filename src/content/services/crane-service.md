@@ -5,7 +5,7 @@ order: 6
 image: ../../assets/services/crane-service.jpg
 ---
 
-![Crane Services For Tree Removal and Trimming](../../assets/services/crane-service.jpg)
+![Crane Services For Tree Removal and Trimming](../../../public/images/gallery/IMG_4596-3.jpg)
 
 The appearance and health of trees can make or break a property's overall appeal. This is why we offer structural support for trees throughout [North New Jersey](/servicing-areas/).
 
