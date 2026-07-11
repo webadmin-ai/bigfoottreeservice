@@ -2,7 +2,7 @@
 title: "Emergency Tree Services in Wayne, NJ"
 description: "In need of an emergency tree removal service in Wayne, NJ due to storms? Call the experts at Big Foot Tree Service. Click here for more or contact us today."
 order: 5
-image: ../../assets/services/storm-damage.png
+image: ../../assets/services/crane-storm-damage.jpg
 ---
 
 ![Crane removing tree from house after storm](../../assets/services/crane-storm-damage.jpg)
