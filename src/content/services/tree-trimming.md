@@ -5,6 +5,8 @@ order: 4
 image: ../../assets/services/tree-trimming.jpg
 ---
 
+![Tree Trimming and Pruning Services](../../assets/services/tree-trimming.jpg)
+
 If you have trees hanging over your property or limbs that have been damaged in a storm, Big Foot Tree Service is here to help. We provide professional tree trimming and pruning services to home and business owners throughout the area. Even if you don't want to remove the trees around your home, overgrown branches can diminish the look and value of your property. When you hire us, we can trim your trees and have them looking their best in no time.
 
 ## The Benefits of Routine Tree Trimming Services

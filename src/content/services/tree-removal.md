@@ -5,6 +5,8 @@ order: 1
 image: ../../assets/services/tree-removal.jpg
 ---
 
+![Tree Removal Services](../../assets/services/tree-removal.jpg)
+
 When it comes to tree removal, it's important to turn to a company you can trust. The team at Big Foot Tree Service acts quickly and carefully when you need us to remove trees from your property. We offer tree removal services in Morris County and many [surrounding areas](/servicing-areas/), serving residential property owners throughout the surrounding communities. Whether you need to remove trees that have been damaged in a storm or you need to make room for a construction project, we are here to help.
 
 ## Common Reasons to Have a Tree Removed

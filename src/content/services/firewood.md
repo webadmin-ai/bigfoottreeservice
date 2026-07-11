@@ -5,6 +5,8 @@ order: 3
 image: ../../assets/services/firewood.jpg
 ---
 
+![Firewood](../../assets/services/firewood.jpg)
+
 Big Foot Tree Service offers firewood cut into 16-18" lengths. Our firewood is a mixture of hardwoods like ash, maple, oak and more.
 
 We offer half cords, which when stacked come out to 4' x 4' x 4'. We also sell full cords, which when stacked come out to 4' x 4' x 8'.

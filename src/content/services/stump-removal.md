@@ -5,6 +5,8 @@ order: 2
 image: ../../assets/services/stump-removal.jpg
 ---
 
+![Tree Stump Removal Services](../../assets/services/stump-removal.jpg)
+
 Few things are more annoying and unsightly than a tree stump. Not only are they an eyesore for your lawn, but they can also be a safety hazard, especially if you have young children and/or pets that like to roam around the yard. Whether you have a single stump or several, the team at Big Foot Tree Service offers stump removal services throughout Passaic County, including Wayne, New Jersey. When you hire us, expect us to treat your property with care and respect. We remove stumps carefully so as not to damage the surrounding yard.
 
 ## The Importance of Removing Tree Stumps
