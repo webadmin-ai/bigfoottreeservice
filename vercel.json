@@ -1,0 +1,164 @@
+{
+	"redirects": [
+		{
+			"source": "/what-types-of-bugs-are-attracted-to-your-tree-stumps",
+			"destination": "/blog/can-tree-stumps-cause-a-termite-problem/",
+			"permanent": true
+		},
+		{
+			"source": "/what-types-of-bugs-are-attracted-to-your-tree-stumps/",
+			"destination": "/blog/can-tree-stumps-cause-a-termite-problem/",
+			"permanent": true
+		},
+		{
+			"source": "/how-overgrown-trees-can-impact-your-homes-foundation-and-roof",
+			"destination": "/blog/how-tree-root-systems-impact-your-foundation-and-hardscaping/",
+			"permanent": true
+		},
+		{
+			"source": "/how-overgrown-trees-can-impact-your-homes-foundation-and-roof/",
+			"destination": "/blog/how-tree-root-systems-impact-your-foundation-and-hardscaping/",
+			"permanent": true
+		},
+		{
+			"source": "/spotting-the-signs-of-a-dying-or-dangerous-tree-on-your-property",
+			"destination": "/tree-removal/",
+			"permanent": true
+		},
+		{
+			"source": "/spotting-the-signs-of-a-dying-or-dangerous-tree-on-your-property/",
+			"destination": "/tree-removal/",
+			"permanent": true
+		},
+		{
+			"source": "/special-offers",
+			"destination": "/contact/",
+			"permanent": true
+		},
+		{
+			"source": "/special-offers/",
+			"destination": "/contact/",
+			"permanent": true
+		},
+		{
+			"source": "/big-foot-tree-service-provides-24-hour-winter-storm-damage-cleanup",
+			"destination": "/blog/big-foot-tree-service-provides-24-hour-winter-storm-damage-cleanup/",
+			"permanent": true
+		},
+		{
+			"source": "/big-foot-tree-service-provides-24-hour-winter-storm-damage-cleanup/",
+			"destination": "/blog/big-foot-tree-service-provides-24-hour-winter-storm-damage-cleanup/",
+			"permanent": true
+		},
+		{
+			"source": "/heres-what-you-should-know-about-stump-grinding-services",
+			"destination": "/stump-removal/",
+			"permanent": true
+		},
+		{
+			"source": "/heres-what-you-should-know-about-stump-grinding-services/",
+			"destination": "/stump-removal/",
+			"permanent": true
+		},
+		{
+			"source": "/the-different-ways-to-remove-a-tree-stump",
+			"destination": "/stump-removal/",
+			"permanent": true
+		},
+		{
+			"source": "/the-different-ways-to-remove-a-tree-stump/",
+			"destination": "/stump-removal/",
+			"permanent": true
+		},
+		{
+			"source": "/is-it-essential-to-remove-a-tree-stump",
+			"destination": "/blog/5-reasons-to-remove-a-tree-stump-from-your-yard/",
+			"permanent": true
+		},
+		{
+			"source": "/is-it-essential-to-remove-a-tree-stump/",
+			"destination": "/blog/5-reasons-to-remove-a-tree-stump-from-your-yard/",
+			"permanent": true
+		},
+		{
+			"source": "/why-tree-topping-is-a-bad-idea",
+			"destination": "/blog/common-tree-trimming-mistakes/",
+			"permanent": true
+		},
+		{
+			"source": "/why-tree-topping-is-a-bad-idea/",
+			"destination": "/blog/common-tree-trimming-mistakes/",
+			"permanent": true
+		},
+		{
+			"source": "/signs-that-you-have-a-diseased-tree",
+			"destination": "/tree-removal/",
+			"permanent": true
+		},
+		{
+			"source": "/signs-that-you-have-a-diseased-tree/",
+			"destination": "/tree-removal/",
+			"permanent": true
+		},
+		{
+			"source": "/why-spring-is-an-ideal-time-to-call-in-a-tree-care-professional",
+			"destination": "/blog/",
+			"permanent": true
+		},
+		{
+			"source": "/why-spring-is-an-ideal-time-to-call-in-a-tree-care-professional/",
+			"destination": "/blog/",
+			"permanent": true
+		},
+		{
+			"source": "/preserving-your-trees-expert-tips-and-services-from-big-foot-tree-service",
+			"destination": "/blog/",
+			"permanent": true
+		},
+		{
+			"source": "/preserving-your-trees-expert-tips-and-services-from-big-foot-tree-service/",
+			"destination": "/blog/",
+			"permanent": true
+		},
+		{
+			"source": "/what-does-it-mean-to-be-a-tree-care-operator",
+			"destination": "/about-us/",
+			"permanent": true
+		},
+		{
+			"source": "/what-does-it-mean-to-be-a-tree-care-operator/",
+			"destination": "/about-us/",
+			"permanent": true
+		},
+		{
+			"source": "/faq",
+			"destination": "/contact/",
+			"permanent": true
+		},
+		{
+			"source": "/faq/",
+			"destination": "/contact/",
+			"permanent": true
+		},
+		{
+			"source": "/sitemap",
+			"destination": "/",
+			"permanent": true
+		},
+		{
+			"source": "/sitemap/",
+			"destination": "/",
+			"permanent": true
+		},
+		{
+			"source": "/sitemap.xml",
+			"destination": "/sitemap-index.xml",
+			"permanent": true
+		},
+		{
+			"source": "/sitemap_index.xml",
+			"destination": "/sitemap-index.xml",
+			"permanent": true
+		}
+	]
+}
